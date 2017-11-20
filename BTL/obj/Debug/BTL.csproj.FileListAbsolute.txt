@@ -1,0 +1,93 @@
+D:\HK3\OOP\BTL\BTL\BTL\bin\Debug\BTL.exe.config
+D:\HK3\OOP\BTL\BTL\BTL\bin\Debug\BTL.exe
+D:\HK3\OOP\BTL\BTL\BTL\bin\Debug\BTL.pdb
+D:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.csprojResolveAssemblyReference.cache
+D:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.Form1.resources
+D:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.Properties.Resources.resources
+D:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.csproj.GenerateResource.Cache
+D:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.exe
+D:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.pdb
+D:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.Form2.resources
+E:\HK3\OOP\BTL\BTL\BTL\bin\Debug\BTL.exe.config
+E:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.exe
+E:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.pdb
+E:\HK3\OOP\BTL\BTL\BTL\bin\Debug\BTL.exe
+E:\HK3\OOP\BTL\BTL\BTL\bin\Debug\BTL.pdb
+E:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.csprojResolveAssemblyReference.cache
+E:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.Form1.resources
+E:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.Form2.resources
+E:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.Properties.Resources.resources
+E:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.csproj.GenerateResource.Cache
+E:\HK3\OOP\BTL\BTL\BTL\obj\Debug\BTL.Form3.resources
+D:\BTL\BTL\BTL\bin\Debug\BTL.exe.config
+D:\BTL\BTL\BTL\obj\Debug\BTL.exe
+D:\BTL\BTL\BTL\obj\Debug\BTL.pdb
+D:\BTL\BTL\BTL\bin\Debug\BTL.exe
+D:\BTL\BTL\BTL\bin\Debug\BTL.pdb
+D:\BTL\BTL\BTL\obj\Debug\BTL.csprojResolveAssemblyReference.cache
+D:\BTL\BTL\BTL\obj\Debug\BTL.Properties.Resources.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.csproj.GenerateResource.Cache
+D:\BTL\BTL\BTL\obj\Debug\BTL.DangNhap.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.QuanLi.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.Admin.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.ThemTaiKhoan.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.ResetMatKhau.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.VoHieuHoaTK.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.KichhoatTK.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.ThemHang.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.XoaHang.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.MuaHang.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.ThanhToan_TraHang.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.ThongKe.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.customer.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.SuaThongTinHH.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.SoLuongMua.resources
+D:\BTL\BTL\BTL\obj\Debug\BTL.ThanhToan.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\bin\Debug\BTL.exe.config
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.exe
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.pdb
+C:\Users\user\Downloads\BTL\BTL\BTL\bin\Debug\BTL.exe
+C:\Users\user\Downloads\BTL\BTL\BTL\bin\Debug\BTL.pdb
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.DangNhap.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.MuaHang.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.SoLuongMua.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.SuaThongTinHH.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.ThanhToan_TraHang.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.ThanhToan.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.ThongKe.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.KichhoatTK.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.QuanLi.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.Admin.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.Customer.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.Properties.Resources.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.ResetMatKhau.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.ThemHang.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.ThemTaiKhoan.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.VoHieuHoaTK.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.XoaHang.resources
+C:\Users\user\Downloads\BTL\BTL\BTL\obj\Debug\BTL.csproj.GenerateResource.Cache
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\bin\Debug\BTL.exe.config
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.exe
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.pdb
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\bin\Debug\BTL.exe
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\bin\Debug\BTL.pdb
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.csprojResolveAssemblyReference.cache
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.DangNhap.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.MuaHang.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.SoLuongMua.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.SuaThongTinHH.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.ThanhToan_TraHang.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.ThanhToan.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.ThongKe.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.KichhoatTK.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.QuanLi.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.Admin.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.Customer.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.Properties.Resources.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.ResetMatKhau.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.ThemHang.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.ThemTaiKhoan.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.VoHieuHoaTK.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.XoaHang.resources
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.csproj.GenerateResource.Cache
