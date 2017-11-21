@@ -101,6 +101,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(376, 166);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
@@ -181,12 +182,15 @@
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
+            this.CancelButton = this.button2;
             this.ClientSize = new System.Drawing.Size(756, 372);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Location = new System.Drawing.Point(30, 30);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "DangNhap";

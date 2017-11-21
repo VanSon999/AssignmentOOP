@@ -72,6 +72,7 @@ namespace BTL
             }
         }
         //Kiểm tra các chuỗi nhập vào
+        //Kiểm tra xem tài khoản có tồn tại
         public bool KiemTraTK()
         {
             if(tentaikhoan!=""&&matkhau!=""&&(trangthai==true||trangthai==false)&&(vaitro=="Admin"||vaitro=="Quản Lí"||vaitro=="Khách Hàng"))

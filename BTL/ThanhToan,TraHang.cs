@@ -99,6 +99,14 @@ namespace BTL
                         txttonggiati.Text = (decimal.Parse(txttonggiati.Text) - hh.Gia * hh.Soluong).ToString();
                         HeThongBanHang.TraHang(DangNhap.taikhoanhientai, hh);
                         lvthanhtoantrahang.Items.Remove(item);
+                        foreach (HangHoa hh1 in HeThongBanHang.DSHangHoa)
+                        {
+                            if (hh1.Mahang == hh.Mahang)
+                            {
+                                hh1.Soluong += hh.Soluong;
+                                break;
+                            }
+                        }
                         return;
                     }
                 }

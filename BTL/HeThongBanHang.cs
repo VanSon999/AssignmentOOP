@@ -18,6 +18,7 @@ namespace BTL
             List<HangHoa> danhsach = new List<HangHoa>();
             foreach(HangHoa hh in HeThongBanHang.DSHangHoa)
             {
+                //Contains hàm so sánh chuỗi con với chuỗi nhập vào
                 if(hh.Tenhang.Contains(tenhanghoa))
                 {
                     danhsach.Add(hh);
@@ -83,7 +84,7 @@ namespace BTL
                     {
                         if (hanghoamuontra.Mahang == hh.Mahang)
                         {
-                            hh.Soluong += hanghoamuontra.Soluong;
+                            hanghoamuontra.Soluong = hh.Soluong;
                             kh.Giohang.Remove(hh);
                             return;
                         }
@@ -192,7 +193,7 @@ namespace BTL
             fs = new FileStream("dsdoanhthu.txt", FileMode.Truncate, FileAccess.Write);
             StreamWriter stwritedoanhthu = new StreamWriter(fs, Encoding.Unicode);
             foreach (HangHoa tk in HeThongBanHang.DSDoanhThu)
-            {
+            { 
                 string[] s = { tk.Mahang.ToString(), tk.Tenhang, tk.Soluong.ToString(), tk.Gia.ToString(), tk.Ngaysanxuat.Day + "/" + tk.Ngaysanxuat.Month + "/" + tk.Ngaysanxuat.Year, tk.Hansudung.Day + "/" + tk.Hansudung.Month + "/" + tk.Hansudung.Year, tk.Loai };
                 string str = s[0] + "|" + s[1] + "|" + s[2] + "|" + s[3] + "|" + s[4] + "|" + s[5] +"|"+ s[6];
                 stwritedoanhthu.WriteLine(str);

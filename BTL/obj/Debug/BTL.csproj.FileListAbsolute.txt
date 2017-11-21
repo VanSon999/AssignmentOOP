@@ -72,7 +72,6 @@ C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL
 C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.pdb
 C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\bin\Debug\BTL.exe
 C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\bin\Debug\BTL.pdb
-C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.csprojResolveAssemblyReference.cache
 C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.DangNhap.resources
 C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.MuaHang.resources
 C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.SoLuongMua.resources
@@ -91,3 +90,4 @@ C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL
 C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.VoHieuHoaTK.resources
 C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.XoaHang.resources
 C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.csproj.GenerateResource.Cache
+C:\Users\Van Son\Desktop\LAP TRINH HUONG DOI TUONG C#\Assignment\BTL\BTL\BTL\BTL\obj\Debug\BTL.csprojResolveAssemblyReference.cache
