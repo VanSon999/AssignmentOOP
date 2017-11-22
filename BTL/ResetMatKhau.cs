@@ -24,7 +24,7 @@ namespace BTL
             {
                 if(tk.Tentaikhoan==txttaikhoan.Text)
                 {
-                    tk.Tentaikhoan = "1234";
+                    tk.Matkhau = Hash_PassWord.GetMD5("1234");
                     MessageBox.Show("Reset Mật Khẩu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Kiemtra = true;              
                     break;

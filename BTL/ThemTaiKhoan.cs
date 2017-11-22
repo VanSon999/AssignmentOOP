@@ -19,7 +19,7 @@ namespace BTL
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TaiKhoan tk = new TaiKhoan(txttaikhoan.Text, txtmatkhau.Text, true, cbloaitk.Text);
+            TaiKhoan tk = new TaiKhoan(txttaikhoan.Text, Hash_PassWord.GetMD5(txtmatkhau.Text), true, cbloaitk.Text);
             if (!tk.KiemTraTrung())
             {
                 if (tk.KiemTraTK())

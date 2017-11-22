@@ -53,6 +53,7 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="hash_password.cs" />
     <Compile Include="HeThongBanHang.cs" />
     <Compile Include="KhachHang.cs" />
     <Compile Include="MuaHang.cs">

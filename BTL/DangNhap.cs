@@ -16,7 +16,7 @@ namespace BTL
         public DangNhap()
         {
             InitializeComponent();
-        }        
+        }
         //click vào đăng nhập
         private void button1_Click(object sender, EventArgs e)
         {
@@ -25,7 +25,8 @@ namespace BTL
             string matkhau = txtmatkhau.Text;
             foreach(TaiKhoan tk in HeThongBanHang.DSTaiKhoan)
             {
-                if(tk.Tentaikhoan==tentakhoan&&tk.Matkhau==matkhau)
+                //Fix
+                if(tk.Tentaikhoan==tentakhoan&&tk.Matkhau==Hash_PassWord.GetMD5(matkhau))
                 {
                     if(tk.Trangthai==true)
                     {
@@ -33,22 +34,25 @@ namespace BTL
                         if (tk.Vaitro=="Admin")
                         {    
                             Admin frmadmin = new Admin();
+                            this.Hide();
                             frmadmin.ShowDialog();
-                          
+                            this.Show();
                             return;
                         }
                         else if(tk.Vaitro=="Quản Lí")
                         {
                             QuanLi frmquanli = new QuanLi();
+                            this.Hide();
                             frmquanli.ShowDialog();
-                            
+                            this.Show();
                             return;
                         }
                         else if(tk.Vaitro=="Khách Hàng")
                         {
                             Customer frmcustomer = new Customer();
+                            this.Hide();
                             frmcustomer.ShowDialog();
-                            
+                            this.Show();
                             return;
                         }
                         KiemTra = true;
@@ -76,6 +80,18 @@ namespace BTL
         private void DangNhap_FormClosed(object sender, FormClosedEventArgs e)
         {
             HeThongBanHang.NhapFile();
+        }
+
+        private void txttaikhoan_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                txtmatkhau.Focus();
+        }
+
+        private void txtmatkhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                button1_Click(sender, e);
         }
     }
 }

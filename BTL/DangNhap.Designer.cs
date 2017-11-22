@@ -134,6 +134,7 @@
             this.txtmatkhau.PasswordChar = '*';
             this.txtmatkhau.Size = new System.Drawing.Size(324, 31);
             this.txtmatkhau.TabIndex = 1;
+            this.txtmatkhau.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtmatkhau_KeyDown);
             // 
             // txttaikhoan
             // 
@@ -143,6 +144,7 @@
             this.txttaikhoan.Name = "txttaikhoan";
             this.txttaikhoan.Size = new System.Drawing.Size(324, 31);
             this.txttaikhoan.TabIndex = 1;
+            this.txttaikhoan.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txttaikhoan_KeyDown);
             // 
             // label2
             // 
@@ -179,7 +181,6 @@
             // 
             // DangNhap
             // 
-            this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;

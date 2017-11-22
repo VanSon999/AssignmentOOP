@@ -50,7 +50,5 @@ namespace BTL
             ThongKe frmthongke = new ThongKe();
             frmthongke.ShowDialog();
         }
-
-
     }
 }
