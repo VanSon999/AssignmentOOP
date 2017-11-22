@@ -41,5 +41,11 @@ namespace BTL
             DoiTuongDangChon = "Trả Hàng";
             frmthanhtoanvatrahang.ShowDialog();
         }
+
+        private void Customer_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+                this.Close();
+        }
     }
 }

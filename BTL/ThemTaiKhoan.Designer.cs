@@ -52,9 +52,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(16, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(651, 316);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -69,7 +69,7 @@
             "Quản Lí",
             "Khách Hàng"});
             this.cbloaitk.Location = new System.Drawing.Point(247, 57);
-            this.cbloaitk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbloaitk.Margin = new System.Windows.Forms.Padding(4);
             this.cbloaitk.Name = "cbloaitk";
             this.cbloaitk.Size = new System.Drawing.Size(309, 31);
             this.cbloaitk.TabIndex = 4;
@@ -88,9 +88,10 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(395, 245);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(199, 47);
             this.button2.TabIndex = 2;
@@ -103,7 +104,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(125, 245);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(199, 47);
             this.button1.TabIndex = 2;
@@ -114,7 +115,7 @@
             // txtmatkhau
             // 
             this.txtmatkhau.Location = new System.Drawing.Point(247, 180);
-            this.txtmatkhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtmatkhau.Margin = new System.Windows.Forms.Padding(4);
             this.txtmatkhau.Name = "txtmatkhau";
             this.txtmatkhau.Size = new System.Drawing.Size(309, 35);
             this.txtmatkhau.TabIndex = 1;
@@ -123,7 +124,7 @@
             // txttaikhoan
             // 
             this.txttaikhoan.Location = new System.Drawing.Point(247, 124);
-            this.txttaikhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txttaikhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txttaikhoan.Name = "txttaikhoan";
             this.txttaikhoan.Size = new System.Drawing.Size(309, 35);
             this.txttaikhoan.TabIndex = 1;
@@ -156,10 +157,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.CancelButton = this.button2;
             this.ClientSize = new System.Drawing.Size(683, 346);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "ThemTaiKhoan";
             this.Text = "Thêm Tài Khoản";

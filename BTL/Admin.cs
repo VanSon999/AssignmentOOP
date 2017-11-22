@@ -50,5 +50,11 @@ namespace BTL
             ThongKe frmthongke = new ThongKe();
             frmthongke.ShowDialog();
         }
+
+        private void Admin_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+                this.Close();
+        }
     }
 }

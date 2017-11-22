@@ -59,5 +59,11 @@ namespace BTL
         private void QuanLi_FormClosed(object sender, FormClosedEventArgs e)
         {
         }
+
+        private void QuanLi_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+                this.Close();
+        }
     }
 }
