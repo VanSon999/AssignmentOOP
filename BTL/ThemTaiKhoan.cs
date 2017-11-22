@@ -55,5 +55,17 @@ namespace BTL
         {
             ThemTaiKhoan.ActiveForm.Close();
         }
+
+        private void txttaikhoan_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                txtmatkhau.Focus();
+        }
+
+        private void txtmatkhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                button1_Click(sender, e);
+        }
     }
 }

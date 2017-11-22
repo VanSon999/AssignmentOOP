@@ -40,7 +40,7 @@
             this.label1.Location = new System.Drawing.Point(13, 37);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(207, 19);
+            this.label1.Size = new System.Drawing.Size(252, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "Nhập số lượng cần mua:";
             // 
@@ -58,7 +58,7 @@
             0,
             0});
             this.nudsoluongcanmua.Name = "nudsoluongcanmua";
-            this.nudsoluongcanmua.Size = new System.Drawing.Size(185, 26);
+            this.nudsoluongcanmua.Size = new System.Drawing.Size(185, 31);
             this.nudsoluongcanmua.TabIndex = 2;
             this.nudsoluongcanmua.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nudsoluongcanmua.Value = new decimal(new int[] {
@@ -80,7 +80,8 @@
             // 
             // SoLuongMua
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AcceptButton = this.btnok;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(429, 120);

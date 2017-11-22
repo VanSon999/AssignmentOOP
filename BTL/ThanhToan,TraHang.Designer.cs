@@ -49,9 +49,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button2.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(591, 398);
+            this.button2.Location = new System.Drawing.Point(788, 490);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 40);
+            this.button2.Size = new System.Drawing.Size(127, 49);
             this.button2.TabIndex = 6;
             this.button2.Text = "Thoát";
             this.button2.UseVisualStyleBackColor = false;
@@ -61,9 +62,10 @@
             // 
             this.btnthanhtoan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnthanhtoan.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnthanhtoan.Location = new System.Drawing.Point(454, 398);
+            this.btnthanhtoan.Location = new System.Drawing.Point(605, 490);
+            this.btnthanhtoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnthanhtoan.Name = "btnthanhtoan";
-            this.btnthanhtoan.Size = new System.Drawing.Size(107, 40);
+            this.btnthanhtoan.Size = new System.Drawing.Size(143, 49);
             this.btnthanhtoan.TabIndex = 7;
             this.btnthanhtoan.Text = "Thanh Toán";
             this.btnthanhtoan.UseVisualStyleBackColor = false;
@@ -118,10 +120,11 @@
             this.lvthanhtoantrahang.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvthanhtoantrahang.FullRowSelect = true;
             this.lvthanhtoantrahang.GridLines = true;
-            this.lvthanhtoantrahang.Location = new System.Drawing.Point(12, 29);
+            this.lvthanhtoantrahang.Location = new System.Drawing.Point(16, 36);
+            this.lvthanhtoantrahang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lvthanhtoantrahang.MultiSelect = false;
             this.lvthanhtoantrahang.Name = "lvthanhtoantrahang";
-            this.lvthanhtoantrahang.Size = new System.Drawing.Size(714, 249);
+            this.lvthanhtoantrahang.Size = new System.Drawing.Size(951, 306);
             this.lvthanhtoantrahang.TabIndex = 0;
             this.lvthanhtoantrahang.UseCompatibleStateImageBehavior = false;
             this.lvthanhtoantrahang.View = System.Windows.Forms.View.Details;
@@ -130,9 +133,11 @@
             // 
             this.groupBox2.Controls.Add(this.lvthanhtoantrahang);
             this.groupBox2.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(12, 40);
+            this.groupBox2.Location = new System.Drawing.Point(16, 49);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(736, 290);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(981, 357);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh Sách Hàng Hóa Đã Mua";
@@ -141,9 +146,10 @@
             // 
             this.btntrahang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btntrahang.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btntrahang.Location = new System.Drawing.Point(454, 398);
+            this.btntrahang.Location = new System.Drawing.Point(605, 490);
+            this.btntrahang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btntrahang.Name = "btntrahang";
-            this.btntrahang.Size = new System.Drawing.Size(105, 40);
+            this.btntrahang.Size = new System.Drawing.Size(140, 49);
             this.btntrahang.TabIndex = 8;
             this.btntrahang.Text = "Trả Hàng";
             this.btntrahang.UseVisualStyleBackColor = false;
@@ -153,9 +159,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(384, 352);
+            this.label1.Location = new System.Drawing.Point(512, 433);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 19);
+            this.label1.Size = new System.Drawing.Size(153, 23);
             this.label1.TabIndex = 9;
             this.label1.Text = "Tổng giá trị:";
             // 
@@ -163,19 +170,22 @@
             // 
             this.txttonggiati.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txttonggiati.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttonggiati.Location = new System.Drawing.Point(516, 349);
+            this.txttonggiati.Location = new System.Drawing.Point(688, 430);
+            this.txttonggiati.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txttonggiati.Name = "txttonggiati";
             this.txttonggiati.ReadOnly = true;
-            this.txttonggiati.Size = new System.Drawing.Size(205, 26);
+            this.txttonggiati.Size = new System.Drawing.Size(272, 31);
             this.txttonggiati.TabIndex = 10;
             this.txttonggiati.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // ThanhToan_TraHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AcceptButton = this.btnthanhtoan;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(750, 460);
+            this.CancelButton = this.button2;
+            this.ClientSize = new System.Drawing.Size(1000, 566);
             this.Controls.Add(this.txttonggiati);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
@@ -183,6 +193,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btntrahang);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "ThanhToan_TraHang";
             this.Text = "ThanhToan_TraHang";

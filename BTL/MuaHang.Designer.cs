@@ -53,9 +53,10 @@
             // 
             this.btnthoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnthoat.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnthoat.Location = new System.Drawing.Point(765, 475);
+            this.btnthoat.Location = new System.Drawing.Point(1020, 585);
+            this.btnthoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnthoat.Name = "btnthoat";
-            this.btnthoat.Size = new System.Drawing.Size(152, 40);
+            this.btnthoat.Size = new System.Drawing.Size(203, 49);
             this.btnthoat.TabIndex = 6;
             this.btnthoat.Text = "Thoát";
             this.btnthoat.UseVisualStyleBackColor = false;
@@ -69,9 +70,11 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(262, 12);
+            this.groupBox1.Location = new System.Drawing.Point(349, 15);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(417, 155);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(556, 191);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tìm Kiếm";
@@ -80,9 +83,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(234, 109);
+            this.button1.Location = new System.Drawing.Point(312, 134);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 40);
+            this.button1.Size = new System.Drawing.Size(145, 49);
             this.button1.TabIndex = 3;
             this.button1.Text = "Tìm kiếm";
             this.button1.UseVisualStyleBackColor = false;
@@ -96,26 +100,30 @@
             this.cbkieutimkiem.Items.AddRange(new object[] {
             "Mã hàng hóa",
             "Tên hàng"});
-            this.cbkieutimkiem.Location = new System.Drawing.Point(175, 30);
+            this.cbkieutimkiem.Location = new System.Drawing.Point(233, 37);
+            this.cbkieutimkiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbkieutimkiem.Name = "cbkieutimkiem";
-            this.cbkieutimkiem.Size = new System.Drawing.Size(234, 27);
+            this.cbkieutimkiem.Size = new System.Drawing.Size(311, 31);
             this.cbkieutimkiem.TabIndex = 2;
             // 
             // txttimkiem
             // 
             this.txttimkiem.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttimkiem.Location = new System.Drawing.Point(175, 77);
+            this.txttimkiem.Location = new System.Drawing.Point(233, 95);
+            this.txttimkiem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txttimkiem.Name = "txttimkiem";
-            this.txttimkiem.Size = new System.Drawing.Size(234, 26);
+            this.txttimkiem.Size = new System.Drawing.Size(311, 31);
             this.txttimkiem.TabIndex = 1;
+            this.txttimkiem.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txttimkiem_KeyDown);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 80);
+            this.label2.Location = new System.Drawing.Point(8, 98);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 19);
+            this.label2.Size = new System.Drawing.Size(175, 23);
             this.label2.TabIndex = 0;
             this.label2.Text = "Nhập tìm kiếm: ";
             // 
@@ -123,9 +131,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 44);
+            this.label1.Location = new System.Drawing.Point(8, 54);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 19);
+            this.label1.Size = new System.Drawing.Size(164, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tìm kiếm theo:";
             // 
@@ -133,9 +142,11 @@
             // 
             this.groupBox2.Controls.Add(this.lvmuahang);
             this.groupBox2.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(11, 167);
+            this.groupBox2.Location = new System.Drawing.Point(15, 206);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(906, 290);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(1208, 357);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Mua Hàng";
@@ -154,10 +165,11 @@
             this.lvmuahang.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvmuahang.FullRowSelect = true;
             this.lvmuahang.GridLines = true;
-            this.lvmuahang.Location = new System.Drawing.Point(12, 35);
+            this.lvmuahang.Location = new System.Drawing.Point(16, 43);
+            this.lvmuahang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lvmuahang.MultiSelect = false;
             this.lvmuahang.Name = "lvmuahang";
-            this.lvmuahang.Size = new System.Drawing.Size(887, 249);
+            this.lvmuahang.Size = new System.Drawing.Size(1181, 306);
             this.lvmuahang.TabIndex = 0;
             this.lvmuahang.UseCompatibleStateImageBehavior = false;
             this.lvmuahang.View = System.Windows.Forms.View.Details;
@@ -208,24 +220,27 @@
             // 
             this.btnmuahang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnmuahang.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnmuahang.Location = new System.Drawing.Point(519, 475);
+            this.btnmuahang.Location = new System.Drawing.Point(692, 585);
+            this.btnmuahang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnmuahang.Name = "btnmuahang";
-            this.btnmuahang.Size = new System.Drawing.Size(152, 40);
+            this.btnmuahang.Size = new System.Drawing.Size(203, 49);
             this.btnmuahang.TabIndex = 8;
             this.btnmuahang.Text = "Mua Hàng";
             this.btnmuahang.UseVisualStyleBackColor = false;
             // 
             // MuaHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(937, 527);
+            this.CancelButton = this.btnthoat;
+            this.ClientSize = new System.Drawing.Size(1249, 649);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnthoat);
             this.Controls.Add(this.btnmuahang);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "MuaHang";
             this.Text = "Mua Hàng";

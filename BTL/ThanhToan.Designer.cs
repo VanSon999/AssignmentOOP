@@ -41,7 +41,7 @@
             this.label1.Location = new System.Drawing.Point(13, 58);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 19);
+            this.label1.Size = new System.Drawing.Size(296, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tổng Tiền Cần Thanh Toán :";
             // 
@@ -52,7 +52,7 @@
             this.txtthanhtoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtthanhtoan.Name = "txtthanhtoan";
             this.txtthanhtoan.ReadOnly = true;
-            this.txtthanhtoan.Size = new System.Drawing.Size(282, 26);
+            this.txtthanhtoan.Size = new System.Drawing.Size(282, 31);
             this.txtthanhtoan.TabIndex = 1;
             this.txtthanhtoan.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -70,6 +70,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.Location = new System.Drawing.Point(435, 96);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(111, 37);
@@ -80,9 +81,11 @@
             // 
             // ThanhToan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AcceptButton = this.button1;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.CancelButton = this.button2;
             this.ClientSize = new System.Drawing.Size(563, 145);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
